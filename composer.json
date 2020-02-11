@@ -1,0 +1,21 @@
+{
+	"name":"xin/thinkphp5-aliyunmns-queue",
+	"description":"基于阿里云消息服务而适配的Thinkphp5的队列",
+	"type":"think-extend",
+	"authors":[
+		{
+			"name":"刘小晋啦",
+			"email":"657306123@qq.com"
+		}
+	],
+	"license":"Apache-2.0",
+	"autoload":{
+		"psr-4":{
+			"think\\queue\\":"src"
+		}
+	},
+	"require":{
+		"topthink/think-queue":"~2.0",
+		"aliyun/aliyun-mns-php-sdk":"^1.1"
+	}
+}
